@@ -364,7 +364,7 @@ by @k777kk - @myabnjasem
             trys = ""
             isclaim.clear()
             isclaim.append("off")
-            await sedthon.send_message(event.chat_id, "Done pro - @Bhthon")
+            await sedthon.send_message(event.chat_id, "Done pro - @k777kk")
 
 @sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.تثبيت (.*)"))
 async def _(event):
@@ -424,4 +424,4 @@ by @k777kk - @myabnjasem
             trys = ""
             isclaim.clear()
             isclaim.append("off")
-            await sedthon.send_message(event.chat_id, "Done pro - @Bhthon")
+            await sedthon.send_message(event.chat_id, "Done pro - @k777kk")
