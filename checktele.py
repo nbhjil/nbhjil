@@ -280,7 +280,7 @@ async def _(event):
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
 ✪ (@{username}) done... 
-✪ By @BHthon - @myAbnBashar
+✪ By @k777kk - @myAbnjasem
     ''')
                     break
                 except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -343,7 +343,7 @@ async def _(event):
 we are the leadership 💥
 UserName ❲ @{username} ❳
 Save : ❲ Channel ❳
-by @bhthon - @myabnbashar
+by @k777kk - @myabnjasem
     ''')
                         break
                     except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -403,7 +403,7 @@ async def _(event):
 we are the leadership 💥
 UserName ❲ @{username} ❳
 Save : ❲ Channel ❳
-by @bhthon - @myabnbashar
+by @k777kk - @myabnjasem
     ''')
                         break
                     except telethon.errors.rpcerrorlist.UsernameInvalidError:
