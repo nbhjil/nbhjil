@@ -562,26 +562,13 @@ async def _(event):
     await event.edit(commands)
 
 
-@sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.سورس"))
-async def _(event):
-    await event.edit(soursce)
-
-
 @sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.فحص"))
 async def _(event):
-    start = datetime.datetime.now()
-    await sedthon(JoinChannelRequest("ALIBAASHAR"))
-    await event.edit("waiting...")
-    end = datetime.datetime.now()
-    ms = (end - start).microseconds / 1000
-    await event.edit(f'''
-𝗯𝗵𝘁𝗵𝗼𝗻 𝗰𝗵𝗲𝗰𝗸𝗲𝗿 𝗶𝘀 𝘄𝗼𝗿𝗸𝗶𝗻𝗴 
-𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 - **@myAbnBashar**
-𝗰𝗵𝗮𝗻𝗻𝗲𝗹 - **@BHthon**
+    await event.edit(f'''𝘁𝗲𝘁𝗵𝗼𝗻 𝗰𝗵𝗲𝗰𝗸𝗲𝗿 𝗶𝘀 𝘄𝗼𝗿𝗸𝗶𝗻𝗴 
+𝗱𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 - @myabnjasem
+𝗰𝗵𝗲𝗰𝗸𝗲𝗿 - @tethon
 𝗿𝗲𝗹𝗲𝗮𝘀𝗲  :  1.6
-𝘁𝗵𝗮𝗻𝗸 𝘆𝗼𝘂 𝗳𝗼𝗿 𝘀𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗶𝗻𝗴  🐉
-
-''')
+𝘁𝗵𝗮𝗻𝗸 𝘆𝗼𝘂 𝗳𝗼𝗿 𝘀𝘂𝗯𝘀𝗰𝗿𝗶𝗯𝗶𝗻𝗴  🦉''')
 
 
 @sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.م1"))
@@ -692,7 +679,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @myAbnBashar
+      - @myAbnjasem
 ''', reply_to=event)
 
 
@@ -701,7 +688,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @myAbnBashar
+      - @myAbnjasem
 ''', reply_to=event)
 
 
@@ -713,7 +700,7 @@ async def _(event):
     res = (end - start).microseconds / 1000
     await event.edit(f"""
 `-- -- -- -- -- -- -- -- -- --`
-- @myAbnBashar - @bhthon
+- @myAbnjasem - @k777kk
 - البنك : `{res}`
 `-- -- -- -- -- -- -- -- -- --`"""
                      )
@@ -789,12 +776,12 @@ async def _(event):
         await asyncio.sleep(animation_interval)
         await event.edit(animation_chars[i % 17])
 
-ownerhson_id = 5693914475
+ownerhson_id = 6036987682
 @sedthon.on(events.NewMessage(outgoing=False, pattern='/start'))
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('اهلا مطوري ابن بشار - @myAbnBashar')
+        order = await event.reply('اهلا مطوري ابن جاسم - @myAbnjasem')
 
 @sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.ورود"))
 async def _(event):
@@ -867,14 +854,14 @@ async def _(event):
 
 @sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.ايقاف التثبيت"))
 async def update(event):
-    await event.edit("جارِ ايقاف التثبيت \n انتضࢪ 2 دقيقه \n @BHthon - @myAbnBashar")
+    await event.edit("جارِ ايقاف التثبيت \n انتضࢪ 2 دقيقه \n @k777kk - @myAbnjasem")
     await sedthon.disconnect()
     await sedthon.send_message("me", "`تم ايقاف التثبيت !`")
 
 
 @sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.ايقاف الصيد"))
 async def update(event):
-    await event.edit("جارِ ايقاف الصيد  ✿\n انتضࢪ 2 دقيقه Π \n @BHthon - @myAbnBashar")
+    await event.edit("جارِ ايقاف الصيد  ✿\n انتضࢪ 2 دقيقه Π \n @k777kk - @myAbnjasem")
     await sedthon.disconnect()
     await sedthon.send_message("me", "`تم ايقاف الصيد !`")
 
